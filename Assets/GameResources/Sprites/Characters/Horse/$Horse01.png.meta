@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b57069f788fec034dbbf54015f82dbd8
+guid: c3df4450d4cb7624ea40ded35e6de4bf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MonsterBlob02+[4,1,1,0,false]_0
+      name: $Horse01_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 6
-        width: 168
-        height: 162
+        x: 12
+        y: 681
+        width: 429
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303f749ff0a58ed4f954160648131c51
-      internalID: 672552495
+      spriteID: 279903195150fbc45ab4e3ac6d32edb3
+      internalID: 294957864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MonsterBlob02+[4,1,1,0,false]_1
+      name: $Horse01_1
       rect:
         serializedVersion: 2
-        x: 240
-        y: 6
-        width: 171
-        height: 156
+        x: 471
+        y: 681
+        width: 426
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b761e1ce8947441bdd1328b671291a
-      internalID: -1186539966
+      spriteID: 6149db5748bf78545a2a96bde33248e5
+      internalID: -1029317963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MonsterBlob02+[4,1,1,0,false]_2
+      name: $Horse01_2
       rect:
         serializedVersion: 2
-        x: 456
-        y: 6
-        width: 153
-        height: 162
+        x: 924
+        y: 681
+        width: 429
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c052a76bf883146ae3065124896aa5
-      internalID: 1665222831
+      spriteID: df5ff2690acc0854697e3c12ed647387
+      internalID: -1407606967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MonsterBlob02+[4,1,1,0,false]_3
+      name: $Horse01_3
       rect:
         serializedVersion: 2
-        x: 666
-        y: 6
-        width: 156
-        height: 153
+        x: 15
+        y: 456
+        width: 426
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff41ff0780169d74e9e69ca8e95427fa
-      internalID: -375332685
+      spriteID: 1609aefc414bcd040a139bbcbf9e4b39
+      internalID: 1193353786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Horse01_4
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 456
+        width: 426
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc506a2eed6208848a0673e796082f1d
+      internalID: 64959971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Horse01_5
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 456
+        width: 426
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b37ac7d1df7c194b994750982daf6b8
+      internalID: -1137497014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Horse01_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 231
+        width: 429
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a71947858efaf44aa1d47aea4e8d7aa
+      internalID: 584599301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Horse01_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 429
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6555bd53876b514cb55d50a9ad0baaa
+      internalID: -1056962235
       vertices: []
       indices: 
       edges: []
@@ -217,10 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MonsterBlob02+[4,1,1,0,false]_0: 672552495
-      MonsterBlob02+[4,1,1,0,false]_1: -1186539966
-      MonsterBlob02+[4,1,1,0,false]_2: 1665222831
-      MonsterBlob02+[4,1,1,0,false]_3: -375332685
+      $Horse01_0: 294957864
+      $Horse01_1: -1029317963
+      $Horse01_2: -1407606967
+      $Horse01_3: 1193353786
+      $Horse01_4: 64959971
+      $Horse01_5: -1137497014
+      $Horse01_6: 584599301
+      $Horse01_7: -1056962235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
