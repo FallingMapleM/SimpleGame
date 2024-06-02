@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class LunaController : MonoBehaviour
 {
     private Rigidbody2D rigidbody2d;
-    public float moveSpeed = 15;
+    public float moveSpeed;
     public int maxHealth = 5;
     private int currentHealth;
     
@@ -15,7 +16,10 @@ public class LunaController : MonoBehaviour
     {
         rigidbody2d = GetComponentInParent<Rigidbody2D>();
         currentHealth = maxHealth;
-        
+        int LunaHP = GetCurrentLunaHP();
+        // Debug.Log(LunaHP);
+        // ChangeHealth();
+
     }
 
     // Update is called once per frame
@@ -31,9 +35,21 @@ public class LunaController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    private void ChangeHealth(int amount)
+    public void ChangeHealth(int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth+"/"+maxHealth);
+    }
+
+    //函数的重载：
+    //
+    // private void ChangeHealth()
+    // {
+    //     currentHealth += 5;
+    //     
+    // }
+    private int GetCurrentLunaHP()
+    {
+        return currentHealth;
     }
 }
