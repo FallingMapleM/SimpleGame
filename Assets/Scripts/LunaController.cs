@@ -14,7 +14,7 @@ public class LunaController : MonoBehaviour
    // Start is called before the first frame update
     void Start()
     {
-        rigidbody2d = GetComponentInParent<Rigidbody2D>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         int LunaHP = GetCurrentLunaHP();
         // Debug.Log(LunaHP);
@@ -27,12 +27,12 @@ public class LunaController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        
         Vector2 position = transform.position;
         position.x = position.x + moveSpeed * horizontal * Time.deltaTime;
         position.y = position.y + moveSpeed * vertical * Time.deltaTime;
         // transform.position = position;
         rigidbody2d.MovePosition(position);
+        
     }
 
     public void ChangeHealth(int amount)
